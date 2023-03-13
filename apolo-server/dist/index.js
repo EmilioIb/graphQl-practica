@@ -16,6 +16,8 @@ const typeDefs = `#graphql
     students: [Student],
     countStudents: Int,
     findStudentByName(name: String): Student,
+    findStudentsByGender(gender: String): [Student],
+    findStudentByAge(name: String): [Student],
     getStudentsOlderThan(age: Int): [Student]
     getApprovedStudents: [Student]
   }
