@@ -8,10 +8,11 @@ function App() {
       <header className="App-header">
         <MyFirstComponent />
         <UsuarioComponent
-          name="Pancho Colate"
+          name="Pancho"
+          lastName="Colate"
           age={25}
-          address="Calle falsa 123"
-          dob={new Date()}
+          score={9}
+          gender="Male"
         />
       </header>
     </div>
